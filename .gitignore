@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+/frontend/node_modules/
+/backend/.venv/
+/backend/venv/
+venv/
+.venv/
+env/
+
+# Production Bundles
+/frontend/dist/
+build/
+
+# Local Environment Configs
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Databases & SQLite
+*.db
+*.sqlite3
+/backend/hcp_crm.db
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# System / IDE Files
+.DS_Store
+Thumbs.db
+.vscode/tasks.json
+.vscode/settings.json
+*.log
+.agents/
